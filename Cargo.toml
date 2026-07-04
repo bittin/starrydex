@@ -1,6 +1,6 @@
 [package]
 name = "starrydex"
-version = "0.3.6"
+version = "0.3.7"
 authors = ["mariinkys (kysdev.owjga@aleeas.com)"]
 edition = "2024"
 license = "GPL-3.0"
@@ -34,19 +34,19 @@ members = ["assetgen"]
 [workspace.dependencies]
 futures-util = "0.3.32"
 i18n-embed-fl = "0.10.0"
-open = "5.3.5"
+open = "5.3.6"
 rust-embed = "8.11.0"
 tokio = { version = "1.52.3", features = ["full"] }
 serde = { version = "1.0.228", features = ["serde_derive"] }
 
 # Added by me
 dirs = "6.0.0"
-ron = "0.12.1"
+ron = "0.12.2"
 tar = "0.4.46"
 flate2 = "1.1.9"
-memmap2 = "0.9.10"
+memmap2 = "0.9.11"
 anywho = "0.1.2"
-rkyv = { version = "0.8.16", features = ["bytecheck"] }
+rkyv = { version = "0.8.17", features = ["bytecheck"] }
 bytecheck = "0.8.2"
 
 futures = "0.3.32"
